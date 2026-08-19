@@ -2,7 +2,5 @@
 lex.yy.c
 y.tab.c
 y.tab.h
-version1_fail
-lex
-smli
+final
 *.zip
