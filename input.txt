@@ -1,0 +1,9 @@
+(define boo() 1 )
+(define fib (fun (n)
+  (if (< n 2)
+      n
+      (if #f 
+          (+ (boo ) (fib (- n 2) ))
+          1)))) ; 
+
+(print-num (fib 6))
